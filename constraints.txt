@@ -1,0 +1,2 @@
+# Minimum version requirement from langchain-huggingface
+huggingface-hub>=0.30.2
