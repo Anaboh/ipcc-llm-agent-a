@@ -5,3 +5,5 @@ langchain-groq==0.3.2
 numpy==2.0.2
 requests==2.32.3
 python-dotenv==1.0.1
+huggingface-hub==0.23.3
+sentence-transformers==3.0.0
