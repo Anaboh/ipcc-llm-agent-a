@@ -1,0 +1,7 @@
+faiss-cpu==1.11.0
+gradio==4.39.0
+langchain-huggingface==0.3.0
+langchain-groq==0.3.2
+numpy==2.0.2
+requests==2.32.3
+python-dotenv==1.0.1
