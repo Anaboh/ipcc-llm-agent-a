@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: ipcc-llm-agent
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
+    envVars:
+      - key: GROQ_API_KEY
+        value: your_groq_api_key
+      - key: OPENAI_API_KEY
+        value: your_openai_key
+      - key: ANTHROPIC_API_KEY
+        value: your_anthropic_key
+      - key: GEMINI_API_KEY
+        value: your_gemini_key
